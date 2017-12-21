@@ -1,0 +1,9 @@
+.svg-holder {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
