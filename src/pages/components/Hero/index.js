@@ -38,11 +38,6 @@ const Hero = ({
   active,
 }) => (
   <div className="hero-wrapper">
-    <h1 className="hero-title">remo<br/>vetere</h1>
-    <p>
-        super active developer, full of fancy ideas, javascript-enthusiast, series/movie-lover and always available for a good discussion ;)
-    </p>
-
     <div className="svg-wrapper">
       <SvgGray className="svg-holder" viewBox="0 0 270 270" />
     </div>

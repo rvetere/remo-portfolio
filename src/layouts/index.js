@@ -20,12 +20,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
-      style={{
-        height: '100%',
-        backgroundColor: '#333',
-      }}
-    >
+    <div style={{ height: '100%' }}>
       {children()}
     </div>
   </div>

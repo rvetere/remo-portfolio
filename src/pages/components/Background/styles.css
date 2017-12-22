@@ -1,0 +1,8 @@
+.page-background {
+  min-height: 240vh;
+}
+
+.page-background > svg {
+  position: fixed;
+  bottom: 0;
+}

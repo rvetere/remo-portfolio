@@ -1,12 +1,14 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "remo-portfolio",
+  "description": "remo vetere's portfolio website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Remo Vetere <remo.vetere@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "react-track": "^0.4.4",
+    "recompose": "^0.26.0"
   },
   "keywords": [
     "gatsby"
