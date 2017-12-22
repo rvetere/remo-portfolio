@@ -4,7 +4,9 @@ import Hero from './components/Hero'
 
 const IndexPage = () => (
   <div style={{ height: '100%' }}>
-    <Link to="/page-2/">Go to page 2</Link>
+    {/*
+      <Link to="/page-2/">Go to page 2</Link>
+    */}
 
     <Hero />
   </div>

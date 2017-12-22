@@ -1,7 +1,54 @@
-.svg-holder {
-  height: 100vh;
+.hero-wrapper {
+  height: 100%;
+  perspective: 880px;
+  padding: 1rem;
+}
+
+.hero-wrapper > p {
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    width: 30vw;
+  }
+}
+
+.hero-title {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 4rem;
+  font-weight: normal;
+
+  @media (min-width: 480px) {
+    font-size: 6rem;
+  }
+}
+
+.svg-wrapper {
+  transform: translateZ(0px) translateY(0px);
+  transform-origin: right;
   position: absolute;
   right: 0;
+  bottom: 0;
+
+  @media (min-width: 768px) {
+    transform: rotateY(-3deg);
+  }
+}
+
+.svg-holder {
+  width: 100vw;
+
+  @media (min-width: 768px) {
+    width: 90vw;
+  }
+
+  @media (min-width: 1024px) {
+    width: 60vw;
+  }
+
+  @media (min-width: 1600px) {
+    width: initial;
+    height: 100vh;
+  }
 }
 
 .hidden {
