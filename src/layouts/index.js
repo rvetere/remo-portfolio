@@ -5,10 +5,7 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
-const Header = () => (
-  <div>
-  </div>
-)
+const Header = () => <div />
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -20,9 +17,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div style={{ height: '100%' }}>
-      {children()}
-    </div>
+    <div style={{ height: '100%' }}>{children()}</div>
   </div>
 )
 
